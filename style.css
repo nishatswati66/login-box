@@ -1,0 +1,42 @@
+body{
+    background-color: #34495e;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #191919;
+    width: 334px;
+    height: 29vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    border: 4px solid #3498db;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 12px;
+
+}
+
+::placeholder{
+    padding-left: 12px;
+    color: black;
+}
+
+.btn{
+    width: 30%;
+}
